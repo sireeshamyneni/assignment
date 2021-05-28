@@ -1,0 +1,9 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+#groupcount:
+ #   path: /
+  #  controller: App\Controller\CustomDataController::getValidQnsCount
+app_lucky_number:
+    path: /lucky/number
+    controller: App\Controller\LuckyController::number
